@@ -23,7 +23,7 @@ public class AverageSquares {
         ++i;
      }
         
-        double average= total/(endNum-startNum);
+        double average= total/(endNum-startNum+1);
          System.out.print(average);
          System.out.println();
 
