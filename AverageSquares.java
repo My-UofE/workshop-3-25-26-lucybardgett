@@ -17,11 +17,11 @@ public class AverageSquares {
         System.out.println("average of squares from "+startNum+" to "+endNum);
         double total = 0;
         double i = startNum;
-        while(i<endNum+1) {
+        do {
         double square = i*i;
         total = total + square;
         ++i;
-     }
+     }while(i<endNum+1);
         
         double average= total/(endNum-startNum+1);
          System.out.print(average);
