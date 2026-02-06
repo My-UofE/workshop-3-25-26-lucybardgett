@@ -25,9 +25,11 @@ public class SumSquares {
         System.out.println("You entered: " + startNum + " and " + endNum);
         System.out.println("sum of squares from "+startNum+" to "+endNum);
         int total = 0;
-        for (int i = startNum; i < (endNum+1); ++i) {
+        int i = startNum;
+        while(i<endNum+1) {
         int square = i*i;
         total = total + square;
+        ++i;
      }
          System.out.print(total);
          System.out.println();
